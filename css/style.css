@@ -10,6 +10,10 @@ body {
   font-family: 'Droid Serif', serif;
 }
 
+images{
+    max-width:250px;
+    max-height: 180;
+}
 .sectiontitle {
     background: #ffffff;
     padding-top: 3px;
@@ -26,8 +30,8 @@ body {
     position: relative;
     font-size: 16px;
     letter-spacing: .1em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 /*Shopping List Style*/
@@ -39,7 +43,7 @@ border-bottom: 1px solid #95a5a6;
 background-color: #666666;
 }
 .custinput {
-width: 400px;
+width: 300px;
 background-color: #333333;
 border: 3px solid #ecf0f1;
 border-radius: 5px;
@@ -122,8 +126,25 @@ background-image: url(http://www.csscheckbox.com/checkboxes/u/csscheckbox_d2b250
 -ms-user-select: none;
 user-select: none;
 }
-/*Toggle panel*/
+
+/*Superfruit Text Slide*/
 #panel, #flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: left;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+/*Toggle panel*/
+#panel2, #flip2 {
     padding: 5px;
     text-align: center;
     background-color: #e5eecc;
@@ -136,6 +157,7 @@ user-select: none;
     display: none;
     text-align: left;
 }
+
 
 /*
 * {

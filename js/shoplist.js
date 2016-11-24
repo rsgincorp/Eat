@@ -74,3 +74,13 @@ $(document).ready(function(){
         $("#div4").fadeToggle("3000");
     });
 });
+
+//Superfruit Text Slide
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown(5000);
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
+    });
+});
